@@ -16,6 +16,7 @@ toont een functie aan die de som van even getallen in een array berekent (javasc
     return som
 }
 let getallen = [7, 14, 20, 5, 9, 12]
+console.log(somEven(getallen))
 
 Hier maken we een function somEven die een array als parameter krijgt.
 We starten de som op 0, dan een met een for-loop lopen we over elke element van de array.
